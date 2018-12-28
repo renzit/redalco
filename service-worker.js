@@ -1,7 +1,7 @@
-var dataCacheName = 'weatherData-v1';
+var dataCacheName = 'weatherData-v2';
 var cacheName = 'weatherPWA-step-6-1';
 var filesToCache = [
-    '/',
+ /*   '/',
     '/index.html',
     '/scripts/app.js',
     '/styles/inline.css',
@@ -17,7 +17,7 @@ var filesToCache = [
     '/images/sleet.png',
     '/images/snow.png',
     '/images/thunderstorm.png',
-    '/images/wind.png'
+    '/images/wind.png'*/
 ];
 
 self.addEventListener('install', function (e) {
