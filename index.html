@@ -23,7 +23,7 @@
   <link rel="canonical" href="https://weather-pwa-sample.firebaseapp.com/final/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>REDALCO | Red de Alimentos Compartidos</title>
-  <link rel="stylesheet" type="text/css" href="styles/inline.css">
+  <link rel="stylesheet" type="text/css" href="/styles/inline.css">
   <!-- TODO add manifest here -->
   <link rel="manifest" href="/manifest.json">
   <!-- Add to home screen for Safari on iOS -->
@@ -38,7 +38,10 @@
 <body>
 
   <header class="header">
-    <h1 class="header__title">REDALCO</h1>
+    <h1 class="header__title">
+      <img src="/images/logo.svg">
+      <span>REDALCO | Red de Alimentos Compartidos</span>  
+    </h1>
     <button id="butRefresh" class="headerButton" aria-label="Refresh"></button>
     <button id="butAdd" class="headerButton" aria-label="Add"></button>
   </header>
@@ -175,7 +178,7 @@
   </div>
 
   <!-- Uncomment the line below when ready to test with fake data -->
-  <script src="scripts/app.js" async></script>
+  <!-- <script src="scripts/app.js" async></script> -->
 
 </body>
 
